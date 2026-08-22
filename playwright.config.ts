@@ -4,7 +4,8 @@ export default defineConfig({
   testDir: './tests',
   
   use: {
-    browserName : 'chromium'
+    browserName : 'chromium',
+    baseURL : 'https://www.amazon.in/'
   },
 
 });

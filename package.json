@@ -2,7 +2,10 @@
   "name": "playwright-amazon-ts",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test":"npx playwright test",
+    "test:headed":"npx playwright test --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -10,7 +10,7 @@ export class HomePage{
     }
 
     async gotoAmazonHome(){
-        await this.page.goto('https://www.amazon.in/')
+        await this.page.goto('/')
     }
 
     async search(term : string){
